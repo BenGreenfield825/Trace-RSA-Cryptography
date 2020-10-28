@@ -9,11 +9,11 @@
 
 using namespace std;
 //Given values
-const int p = 13;
+const int p = 13;   //Alice's two primes p and q
 const int q = 29;
 const int n = p * q;
-const int e = 5;
-const int M = 27;
+const int e = 5;    //Alice uses 5 at random (normaly this would be a gcd)
+const int M = 27;   //Bob's message to send
 
 int ComputeSecret(int p, int q);
 int FindUniqueD(int n, int e, int totient);
